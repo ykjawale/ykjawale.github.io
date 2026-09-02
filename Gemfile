@@ -11,3 +11,8 @@ end
 
 gem 'github-pages'
 gem 'connection_pool', '2.5.0'
+gem 'csv'
+gem 'bigdecimal'
+gem 'tzinfo-data'
+gem 'liquid', '>= 4.0.4'
+gem 'wdm', '>= 0.1.0'

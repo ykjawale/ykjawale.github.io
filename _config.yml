@@ -9,41 +9,46 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
-title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+title                    : "Yash Jawale / Personal Site"
+title_separator          : "|"
+name                     : &name "Yash Jawale"
+description              : &description "Yash K Jawale's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://ykjawale.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "ykjawale/ykjawale.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "profile_Yash_Jawale_TUD_crop1.jpg" # in /images/
+  name             : "Yash K. Jawale"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "Postdoctoral Researcher" # Quantitative Biophysicist 
+  location         : "Delft, The Netherlands"
+  employer         : "Delft University of Technology"
+  uri              : # URL # ? TUD ? https://research.tudelft.nl/en/persons/yk-jawale/ https://repository.tudelft.nl/person/Person_a925ba75-aae8-41b6-8144-ad225661f55f
+  email            : "Y.K.Jawale@TUDelft.nl" # ykjawale@gmail.com 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  orcid            : "https://orcid.org/0000-0003-4614-4598"
+  googlescholar    : "https://scholar.google.com/citations?user=-UIhdnQAAAAJ&hl=en&view_op=list_works&sortby=pubdate" #
+  # (my order)
+  linkedin         : "yash-jawale-biophysics" # Username # https://www.linkedin.com/in/yash-jawale-biophysics/
+  github           : "ykjawale"
+  #
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
-  semantic         : # URL
-  ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
+  semantic         : # https://www.semanticscholar.org/author/Y.-Jawale/51910252
+  ssrn             : # https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7363496
+  openalex         : "https://openalex.org/authors/a5074888557" # new (added svg icon) - Yash
+  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=%28Yash+Jawale%29+OR+%28Jawale+YK%5Bau%5D%29&sort=relevance" # "https://www.ncbi.nlm.nih.gov/pubmed/?term=Yash+Jawale"
+  researchgate     : "https://www.researchgate.net/profile/Yash-Jawale" # URL
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57188582347" # URL
   zotero           : # URL
 
 
@@ -51,13 +56,14 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  # github           : "ykjawale"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  twitter          : "ykjawale" # Username for X / Twitter
+  bluesky          : "ykjawale.bsky.social" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -66,7 +72,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  # linkedin         : "yash-jawale-biophysics" # Username # https://www.linkedin.com/in/yash-jawale-biophysics/
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -74,7 +80,6 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -302,7 +307,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Amsterdam # Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
