@@ -23,4 +23,4 @@ To address key questions in quantitative biology, I employ a hybrid "wet + dry" 
 
 ---
 
-For inquiries, collaborations, or a copy of my full CV, please feel free to reach out.
+For inquiries, collaborations, or a copy of my <a href="{{ '/assets/pdf/CV_YashKJawale_short.pdf' | relative_url }}" target="_blank" rel="noopener">CV</a>, please feel free to reach out.
